@@ -42,7 +42,8 @@
   }
   .content-slider {
     transform: scale(0.6);
-    top: 0;
+    top: -5%;
+    left: 10%;
   }
   .content-banner {
     transform: scale(0.9);
@@ -100,6 +101,11 @@
     transform: scale(0.7);
     top: 0 !important;
     right: 0 !important;
+  }
+  .content-slider {
+    transform: scale(0.5);
+    top: -20%;
+    left: 5%;
   }
 }
 .positon-banner-slider {
