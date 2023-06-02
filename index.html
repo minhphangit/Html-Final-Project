@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Final Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Begin header -->
+    <header class="shadow-sm">
+      <nav class="navbar navbar-expand-lg row p-0 py-2" style="color: #ffffff">
+        <a class="navbar-brand col-6 col-md-7 col-lg-1 mx-5 ps-3" href="#"
+          ><h1 class="text-black fw-bold style">
+            Philos<span class="main-color">.</span>
+          </h1></a
+        >
+        <button
+          class="navbar-toggler col-3 col-md-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse col-lg-6"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link main-color" aria-current="page" href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item ms-2">
+              <a class="nav-link" href="#">MAN </a>
+            </li>
+            <li class="nav-item ms-2">
+              <a class="nav-link" href="#">WOMEN</a>
+            </li>
+            <li class="nav-item ms-2">
+              <a class="nav-link" href="#">MAN</a>
+            </li>
+            <li class="nav-item ms-2">
+              <a class="nav-link" href="#">KIDS</a>
+            </li>
+            <li class="nav-item ms-2">
+              <a href="javascript:;" class="nav-link">BRAND</a>
+            </li>
+            <li class="nav-item ms-2">
+              <a href="javascript:;" class="nav-link position-relative">
+                ACCESSORIES
+                <span
+                  class="position-absolute badge rounded-pill bg-danger badge-sale-position"
+                >
+                  SALE
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item ms-2">
+              <a href="javascript:;" class="nav-link">PAGE</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-12 col-md-12 col-lg-4 row justify-content-around me-3 ms-4"
+        >
+          <button
+            type="button"
+            class="col-4 w-25 btn rounded-pill bg-main-color bg-main-color-hover pb-2 btn-shop-now"
+          >
+            BUY NOW
+          </button>
+          <div class="col-7 nav-right-ic border-start">
+            <i
+              class="fa-solid fa-magnifying-glass text-black ps-3 read-more"
+              role="button"
+            ></i>
+            <button
+              type="button"
+              class="border-0 position-relative bg-white ps-3"
+            >
+              <i class="fa-solid fa-heart read-more"></i>
+              <span
+                class="position-absolute bg-main-color translate-middle p-1 badge-quatity-position bg-danger border border-light rounded-circle"
+              >
+                <span class="">10</span>
+              </span>
+            </button>
+            <i
+              class="fa-solid fa-bag-shopping ps-3 text-black read-more"
+              role="button"
+              ><span class="fw-light ms-2 cart-price pe-none"
+                >2 / $698.00</span
+              ></i
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End header -->
+    <main>
+      <!-- Begin main content -->
+      <div class="main-content pb-4">
+        <!-- Begin slider -->
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slider"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/slide_bg2.jpg"
+                class="position-relative d-block w-100 img-slider"
+                alt="..."
+              />
+              <div
+                class="content-slider position-absolute positon-content-slider"
+              >
+                <h3 class="fw-bold">BANG'S ENG <br />20% OFF</h3>
+                <p class="my-4">The Bag for Summer</p>
+                <button
+                  type="button"
+                  class="btn rounded-pill bg-main-color bg-main-color-hover me-2 w-75"
+                >
+                  SEE MORE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/slide_bg1.jpg"
+                class="position-relative d-block w-100"
+                alt="..."
+              />
+              <div
+                class="content-slider position-absolute positon-content-slider text-white"
+              >
+                <h3 class="fw-bold">BANG'S ENG <br />20% OFF</h3>
+                <p class="my-4">The Bag for Summer</p>
+                <button
+                  type="button"
+                  class="btn rounded-pill bg-main-color bg-main-color-hover me-2 w-75"
+                >
+                  SEE MORE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/slide_bg3.jpg"
+                class="position-relative d-block w-100"
+                alt="..."
+              />
+              <div
+                class="content-slider position-absolute positon-content-slider text-white"
+              >
+                <h3 class="fw-bold">BANG'S ENG <br />20% OFF</h3>
+                <p class="my-4">The Bag for Summer</p>
+                <button
+                  type="button"
+                  class="btn rounded-pill bg-main-color bg-main-color-hover me-2 w-75"
+                >
+                  SEE MORE
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- End slider -->
+
+        <!-- Begin policy -->
+        <div class="policy container my-5">
+          <div class="row mt-5 justify-content-evenly align-items-center">
+            <div
+              class="col-12 col-md-12 col-lg-3 row justify-content-end content-delivery"
+            >
+              <div class="col-2 align-self-center">
+                <i class="fa-solid fa-truck fs-3"></i>
+              </div>
+              <div class="col-8 ms-2">
+                <h6 class="mb-0 opacity-75">DELIVERY FREE</h6>
+                <p class="mb-0 opacity-75">On Order Over $150</p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-12 col-lg-3 row justify-content-end border-start ps-3"
+            >
+              <div class="col-2 align-self-center">
+                <!-- <span class="fs-1 fw-lighter opacity-100 color-ccc">|</span> -->
+                <i class="fa-solid fa-rotate-left fs-3"></i>
+              </div>
+              <div class="col-8 ms-2">
+                <h6 class="mb-0 opacity-75">DELIVERY FREE</h6>
+                <p class="mb-0 opacity-75">On Order Over $150</p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-12 col-lg-3 row justify-content-end border-start"
+            >
+              <div class="col-2 align-self-center">
+                <!-- <span class="fs-1 fw-lighter opacity-100 color-ccc">|</span> -->
+                <i class="fa-solid fa-truck fs-3"></i>
+              </div>
+              <div class="col-8 ms-2">
+                <h6 class="mb-0 opacity-75">DELIVERY FREE</h6>
+                <p class="mb-0 opacity-75">On Order Over $150</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 col-md-12 col-lg-6">
+              <div class="position-relative ms-0 mt-1">
+                <img
+                  class="img-fluid position-relative"
+                  src="./img/bag-1.jpg"
+                  alt=""
+                />
+                <div
+                  class="col-9 col-md-9 col-lg-9 positon-banner-slider content-banner fw-bolder text-white position-absolute"
+                >
+                  <span>BAG'S</span>
+                  <h2>2 BUY GET <br />UP TO 50% OFF</h2>
+                  <button
+                    type="button"
+                    class="btn rounded-pill bg-main-color bg-main-color-hover me-2 w-25 btn-shop-now"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+              <div class="position-relative ms-0 mt-1">
+                <img
+                  class="img-fluid position-relative"
+                  src="./img/bag-1.jpg"
+                  alt=""
+                />
+                <div
+                  class="col-9 col-md-9 col-lg-9 positon-banner-slider content-banner fw-bolder text-white position-absolute"
+                >
+                  <span>BAG'S</span>
+                  <h2>2 BUY GET <br />UP TO 50% OFF</h2>
+                  <button
+                    type="button"
+                    class="btn rounded-pill bg-main-color bg-main-color-hover me-2 w-25 btn-shop-now"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Begin TOP INTERESTING -->
+          <div class="section-title mt-5 mb-4">
+            <h2 class="fw-bolder position-relative text-center">
+              TOP INTERESTING
+            </h2>
+          </div>
+          <!-- Begin nav TOP INTERESTING -->
+          <nav
+            class="navbar navbar-expand-lg navbar-light"
+            style="background-color: #fff"
+          >
+            <div class="container-fluid">
+              <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-top-interesting mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link main-color"
+                      aria-current="page"
+                      href="javascript:;"
+                      >ALL</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:;">NEW PRODUCT</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:;">BEST SELLER</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:;">FEATURES</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- End nav TOP INTERESTING -->
+
+          <!-- Begin list product -->
+          <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 mt-2">
+            <div class="col mt-2 product-item">
+              <div class="card">
+                <img
+                  src="./img/p1.PNG"
+                  class="card-img-top position-relative"
+                  alt="..."
+                />
+                <span
+                  class="position-absolute bg-main-color rounded-circle p-2 position-new"
+                  >NEW</span
+                >
+                <div class="card-body text-center">
+                  <h6 class="card-title fw-normal">United Color of Benetton</h6>
+                  <h5 class="price fw-bold">$30.00</h5>
+                  <a
+                    href="#"
+                    class="btn btn-success btn-buynow bg-main-color bg-main-color-hover border-0"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-2 product-item">
+              <div class="card">
+                <img
+                  src="./img/p1.PNG"
+                  class="card-img-top position-relative"
+                  alt="..."
+                />
+                <span
+                  class="position-absolute bg-danger text-white rounded-circle p-2 position-new"
+                  >SALE</span
+                >
+                <div class="card-body text-center">
+                  <h6 class="card-title fw-normal">United Color of Benetton</h6>
+                  <h5 class="price fw-bold">$30.00</h5>
+                  <a
+                    href="#"
+                    class="btn btn-success btn-buynow bg-main-color bg-main-color-hover border-0"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-2 product-item">
+              <div class="card">
+                <img
+                  src="./img/p1.PNG"
+                  class="card-img-top position-relative"
+                  alt="..."
+                />
+                <span
+                  class="position-absolute bg-main-color rounded-circle p-2 position-new"
+                  >NEW</span
+                >
+                <div class="card-body text-center">
+                  <h6 class="card-title fw-normal">United Color of Benetton</h6>
+                  <h5 class="price fw-bold">$30.00</h5>
+                  <a
+                    href="#"
+                    class="btn btn-success btn-buynow bg-main-color bg-main-color-hover border-0"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-2 product-item">
+              <div class="card">
+                <img
+                  src="./img/p1.PNG"
+                  class="card-img-top position-relative"
+                  alt="..."
+                />
+                <span
+                  class="position-absolute bg-danger text-white rounded-circle p-2 position-new"
+                  >SALE</span
+                >
+                <div class="card-body text-center">
+                  <h6 class="card-title fw-normal">United Color of Benetton</h6>
+                  <h5 class="price fw-bold">$30.00</h5>
+                  <a
+                    href="#"
+                    class="btn btn-success btn-buynow bg-main-color bg-main-color-hover border-0"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End list product -->
+          <!-- Begin From Out Blog -->
+          <div class="blog row justify-content-center text-center mt-5">
+            <div class="section-title mb-4">
+              <h2 class="fw-bolder position-relative text-center">
+                From Our Blog
+              </h2>
+              <p class="mt-4 pt-3 opacity-75">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit dolor
+                sit amet <br />consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <!-- End From Out Blog -->
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mt-2">
+              <div class="card" style="width: 22rem">
+                <img src="./img/b1.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <span class="fw-lighter opacity-50"
+                    ><i class="fa-solid fa-calendar-days"></i> May 4,2019
+                    &nbsp;&nbsp;&nbsp; <i class="fa-regular fa-comment"></i> 5
+                  </span>
+                  <p class="m-0 fw-light">HasTech</p>
+                  <h5 class="card-title read-more" role="button">
+                    Cypi Non Habent Claritatem InSitam.
+                  </h5>
+                  <p
+                    class="card-text fs-6 fw-light text-truncate"
+                    style="max-width: 350px"
+                  >
+                    Sed quia non numquam modi tempora indunt ut labore et dolore
+                    magnam aliquam quaerat
+                  </p>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-light rounded-0 ps-0 ms-3 fw-bold opacity-75 bg-white border-0 border-bottom mb-1 read-more"
+                  >
+                    Read more...
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-2">
+              <div class="card" style="width: 22rem">
+                <img src="./img/b2.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <span class="fw-lighter opacity-50"
+                    ><i class="fa-solid fa-calendar-days"></i> May 4,2019
+                    &nbsp;&nbsp;&nbsp;
+                    <i class="fa-regular fa-comment"></i> 5</span
+                  >
+                  <p class="m-0 fw-light">HasTech</p>
+                  <h5 class="card-title read-more" role="button">
+                    Cypi Non Habent Claritatem InSitam.
+                  </h5>
+                  <p
+                    class="card-text fs-6 fw-light text-truncate"
+                    style="max-width: 350px"
+                  >
+                    Sed quia non numquam modi tempora indunt ut labore et dolore
+                    magnam aliquam quaerat
+                  </p>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-light rounded-0 ps-0 ms-3 opacity-75 fw-bold bg-white border-0 border-bottom mb-1 read-more"
+                  >
+                    Read more...
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-2">
+              <div class="card" style="width: 22rem">
+                <img src="./img/b3.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <span class="fw-lighter opacity-50"
+                    ><i class="fa-solid fa-calendar-days"></i> May 4,2019
+                    &nbsp;&nbsp;&nbsp;
+                    <i class="fa-regular fa-comment"></i> 5</span
+                  >
+                  <p class="m-0 fw-light">HasTech</p>
+                  <h5 class="card-title read-more" role="button">
+                    Cypi Non Habent Claritatem InSitam.
+                  </h5>
+                  <p
+                    class="card-text fs-6 fw-light text-truncate"
+                    style="max-width: 350px"
+                  >
+                    Sed quia non numquam modi tempora indunt ut labore et dolore
+                    magnam aliquam quaerat
+                  </p>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-light rounded-0 ps-0 ms-3 fw-bold opacity-75 bg-white border-0 border-bottom mb-1 read-more"
+                  >
+                    Read more...
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end containenr -->
+      </div>
+      <!-- End main content -->
+    </main>
+    <!-- End main -->
+
+    <footer
+      class="py-5 px-5 mt-3"
+      style="background-color: #252525; color: #fff"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-md-12 col-lg-4 mb-3">
+            <a href="#" class="text-decoration-none"
+              ><h1 class="text-white style">
+                Philos<span class="main-color">.</span>
+              </h1></a
+            >
+            <p class="py-3 opacity-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              vel. Non qui itaque maiores voluptatem consequuntur porro
+              veritatis architecto necessitatibus cumque beatae omnis tenetur,
+              iste voluptatum numquam? Natus, ducimus in?
+            </p>
+            <ul class="d-flex list-unstyled mt-4">
+              <li class="">
+                <a
+                  class="p-3 rounded-circle btn-buynow bg-main-color bg-main-color-hover text-white"
+                  href="#"
+                  ><i class="fs-6 col fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="p-3 rounded-circle btn-buynow bg-main-color bg-main-color-hover text-white"
+                  href="#"
+                  ><i class="fs-6 col fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="p-3 rounded-circle btn-buynow bg-main-color bg-main-color-hover text-white"
+                  href="#"
+                  ><i class="fs-6 col fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="p-3 rounded-circle btn-buynow bg-main-color bg-main-color-hover text-white"
+                  href="#"
+                  ><i class="fs-6 col fa-brands fa-pinterest"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="p-3 rounded-circle btn-buynow bg-main-color bg-main-color-hover text-white"
+                  href="#"
+                  ><i class="fs-6 fa-brands fa-google-plus-g"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col col-12 col-md-6 col-lg-2 mb-3">
+            <h5>INFORMATION</h5>
+            <ul class="nav flex-column pt-4 opacity-50">
+              <li class="nav-item pt-3">
+                <a href="#" class="nav-link p-0 text-white">About Us</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">About Our Shop</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Secure Shopping</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Delivery infomation</a
+                >
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Privacy Policy</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Our Sitemap</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-2 mb-3">
+            <h5>OUR LINKS</h5>
+            <ul class="nav flex-column pt-4 opacity-50">
+              <li class="nav-item pt-3">
+                <a href="#" class="nav-link p-0 text-white">About Us</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">About Our Shop</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Secure Shopping</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Delivery infomation</a
+                >
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Privacy Policy</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Our Sitemap</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-2 mb-3">
+            <h5>EXTRA</h5>
+            <ul class="nav flex-column pt-4 opacity-50">
+              <li class="nav-item pt-3">
+                <a href="#" class="nav-link p-0 text-white">About Us</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">About Our Shop</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Secure Shopping</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Delivery infomation</a
+                >
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Privacy Policy</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Our Sitemap</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-2 mb-3">
+            <h5>CONTACT</h5>
+            <ul class="nav flex-column pt-4 opacity-50">
+              <li class="nav-item pt-3">
+                <a href="#" class="nav-link p-0 text-white">About Us</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">About Our Shop</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Secure Shopping</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Delivery infomation</a
+                >
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Privacy Policy</a>
+              </li>
+              <li class="nav-item mb-2 pt-2">
+                <a href="#" class="nav-link p-0 text-white">Our Sitemap</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex-sm-row border-top">
+          <p class="col col-12 col-md-12 col-lg-8 m-0 pt-4">
+            &copy; Copyright ©2023 All rights reserved | This template is made
+            with <i class="fa-solid fa-heart opacity-50"></i> by
+            <span class="text-primary">Minh Phan</span>.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

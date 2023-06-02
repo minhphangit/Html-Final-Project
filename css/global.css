@@ -1,0 +1,77 @@
+.main-color {
+  color: #35b79d !important;
+}
+.main-color-hover:hover {
+  color: #35b79d !important;
+}
+.bg-main-color {
+  color: #fff;
+  background-color: #35b79d !important ;
+  font-size: 13px;
+}
+.bg-main-color-hover:hover {
+  background-color: #0e866e !important;
+  color: #fff;
+}
+.nav-link:hover,
+.read-more:hover {
+  color: #35b79d !important;
+}
+.color-ccc {
+  color: #cccccc;
+}
+.badge-sale-position {
+  top: 0px;
+  right: -20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.badge-quatity-position {
+  top: 1px;
+  right: -16px;
+  font-size: 10px;
+}
+.positon-content-slider {
+  top: 20%;
+  left: 20%;
+}
+@media (max-width: 426px) {
+  .img-slider {
+    transform: scale(1.2);
+    height: auto !important;
+  }
+  .content-slider {
+    transform: scale(0.6);
+    top: 0;
+  }
+  .content-banner {
+    transform: scale(0.9);
+    top: 15% !important;
+  }
+  .btn-shop-now {
+    transform: scale(0.8);
+    width: 30% !important;
+  }
+  .nav-top-interesting {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 769px) {
+  .nav-top-interesting {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .nav-top-interesting > li {
+    margin: 0 20px;
+  }
+}
+.positon-banner-slider {
+  top: 30%;
+  left: 10%;
+}
+.cart-price {
+  font-size: 13px;
+}
